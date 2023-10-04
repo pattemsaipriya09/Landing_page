@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background-image: url("file:///C:\Users\nukal\OneDrive\Desktop\Ice cream_files\icecream.jpg");
+    background-size: cover;
+    height: 200vh;
+    width: 100wh;
+}
+.photo{
+    height: 200vh;
+    width: 100wh;
+    position: relative;
+    background-image : url("file:///C:\Users\nukal\OneDrive\Desktop\Ice cream_files\icecream.jpg");
+    background-size: cover ;  
+}
+.photo-text{
+    width: 100%;
+    height: 100%;
+    color: rgb(59, 61, 61);
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+
+
+
+
+}
+.border-bottom{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: bold;
+    font-weight: bolder;
+    font-family: monospace;
+    
+}
+.foot{
+    background-color: rgb(210, 161, 169);
+}
+
+@media screen and (max-width:500px) {
+    .border-image  {
+      width: 100%;
+      height: 700px;
+     position: relative;
+     background-image : url("file:///C:\Users\nukal\OneDrive\Desktop\Ice cream_files\original.avif");
+     background-size: cover;
+ 
+    }
+}
+.header{
+    background-color: rgb(216, 36, 114);
+}
